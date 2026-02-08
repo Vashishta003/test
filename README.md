@@ -21,3 +21,22 @@ Command-line:
 Run tests:
 
     python -m unittest discover -v
+
+Web UI
+------
+
+A small web UI is provided in the `ui` folder and served by `app.py`.
+
+1. Install dependencies:
+
+```bash
+pip install flask
+```
+
+2. Run the server:
+
+```bash
+python app.py
+```
+
+3. Open http://127.0.0.1:5000/ in your browser. Use the `Eval (server)` button to evaluate expressions with the Python `safe_eval` implementation.
